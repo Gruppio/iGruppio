@@ -1,0 +1,8 @@
+../Adxl345.c: In function 'ReadAccTotal':
+../Adxl345.c:109:12: warning: incompatible implicit declaration of built-in function 'sqrtf'
+../Adxl345.c: In function 'ReadAngleX':
+../Adxl345.c:127:12: warning: incompatible implicit declaration of built-in function 'asinf'
+../Adxl345.c: In function 'ReadAngleY':
+../Adxl345.c:146:12: warning: incompatible implicit declaration of built-in function 'asinf'
+../Adxl345.c: In function 'ReadAngleZ':
+../Adxl345.c:165:12: warning: incompatible implicit declaration of built-in function 'asinf'

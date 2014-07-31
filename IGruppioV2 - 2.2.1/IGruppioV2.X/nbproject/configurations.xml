@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../Adc-Gruppio.h</itemPath>
+      <itemPath>../Adxl345.h</itemPath>
+      <itemPath>../App.h</itemPath>
+      <itemPath>../Filter.h</itemPath>
+      <itemPath>../Grapichs.h</itemPath>
+      <itemPath>../HMC6352.h</itemPath>
+      <itemPath>../I2C - Gruppio.h</itemPath>
+      <itemPath>../IGruppioV2.h</itemPath>
+      <itemPath>../ITG3200.h</itemPath>
+      <itemPath>../MLX90614.h</itemPath>
+      <itemPath>../PicasoSGC.h</itemPath>
+      <itemPath>../Timer-PWM-Gruppio.h</itemPath>
+      <itemPath>../Uart-Gruppio.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LibraryFiles"
+                   displayName="Library Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ObjectFiles"
+                   displayName="Object Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../Adc-Gruppio.c</itemPath>
+      <itemPath>../Adxl345.c</itemPath>
+      <itemPath>../App.c</itemPath>
+      <itemPath>../Filter.c</itemPath>
+      <itemPath>../Grapichs.c</itemPath>
+      <itemPath>../HMC6352.c</itemPath>
+      <itemPath>../I2C - Gruppio.c</itemPath>
+      <itemPath>../IGruppioV2.c</itemPath>
+      <itemPath>../ITG3200.c</itemPath>
+      <itemPath>../MLX90614.c</itemPath>
+      <itemPath>../Pic32mx7.c</itemPath>
+      <itemPath>../PicasoSGC.c</itemPath>
+      <itemPath>../Timer-PWM-Gruppio.c</itemPath>
+      <itemPath>../Uart-Gruppio.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX795F512L</targetDevice>
+        <targetHeader></targetHeader>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>C32</languageToolchain>
+        <languageToolchainVersion>2.00</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <C32>
+        <property key="extra-include-directories" value="..;"/>
+        <property key="additional-warnings" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="use-indirect-calls" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+      </C32>
+      <C32-AS>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="extra-include-directories-for-assembler" value="..;"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="list-file" value=""/>
+        <property key="list-source" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="warning-level" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="list-section-info" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="false-conditionals" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="assembler-symbols" value=""/>
+      </C32-AS>
+      <C32-LD>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warn-section-align" value="false"/>
+        <property key="heap-size" value=""/>
+        <property key="no-startup-files" value="false"/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="stack-size" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="map-file" value="&quot;${DISTDIR}/IGruppioV2.X.${IMAGE_TYPE}.map&quot;"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="input-libraries" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="extra-lib-directories"
+                  value="../C:/Program Files (x86)/Microchip/MPLAB C32/lib;../C:/Program Files (x86)/Microchip/MPLAB C32/pic32mx/lib;"/>
+      </C32-LD>
+      <C32Global>
+        <property key="legacy-libc" value="false"/>
+        <property key="no-start-files" value="false"/>
+      </C32Global>
+      <PICkit3PlatformTool>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="memories.id" value="false"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="memories.eeprom" value="false"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="DMA" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="ADC 1" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="poweroptions.powerenable" value="true"/>
+        <property key="memories.programmemory.start" value="0x1d000000"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="voltagevalue" value="3.25"/>
+        <property key="memories.programmemory.end" value="0x1d07ffff"/>
+        <property key="TIMER5" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER1" value="true"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="I2C5" value="true"/>
+        <property key="I2C4" value="true"/>
+        <property key="I2C3" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="UART6" value="true"/>
+        <property key="UART5" value="true"/>
+        <property key="UART4" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x1d0001ff"/>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

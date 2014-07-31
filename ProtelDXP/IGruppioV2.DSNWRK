@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=IGruppioV2Project.PRJPCB
+[Project2]
+ProjectPath=..\..\Progetti H&S x PIC\Pic32 Board\Pic32Board\Pic32BoardPRJ.PrjPcb
+[Project3]
+ProjectPath=..\..\Progetti H&S x PIC\Provaservi\Provaservi.PrjPcb
